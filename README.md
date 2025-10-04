@@ -40,5 +40,5 @@ Criação de uma interface amigável com CSS moderno
 
 📸 Preview
 
-(<img width="1300" height="622" alt="image" src="https://github.com/user-attachments/assets/51f43a0b-924f-440c-be74-063ea160e569" />
-p)
+<img width="1300" height="622" alt="image" src="https://github.com/user-attachments/assets/51f43a0b-924f-440c-be74-063ea160e569" />
+
