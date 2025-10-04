@@ -14,5 +14,11 @@ function handleDrawClick() {
     }
 
     const result = Math.floor(Math.random() * (max - min + 1)) + min;
-    resultado.textContent = `Número sorteado: ${result}`;
+    resultado.textContent = `Número sorteado: ${result}`
+
+    resultado.style.opacity = 1;
+    setTimeout(() => {
+        resultado.style.opacity = 0;
+    }, 3000);
 }
+

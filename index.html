@@ -4,19 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css" media="screen">
     <title>Number Draw</title>
 </head>
 
 <body>
-    <div>
-        <input type="number" placeholder="entre" class="input-min">
-        <input type="number" placeholder="e" class="input-max">
-    </div>
-    <button onclick="handleDrawClick()">Draw</button>
+    <div class="container">
+        <h2>Number Draw</h2>
+        <div class="inputs">
+            <input type="number" placeholder="entre" class="input-min">
+            <input type="number" placeholder="e" class="input-max">
+        </div>
+        <button onclick="handleDrawClick()">Draw</button>
 
-    <p id="mensagem-erro"></p>
-    <p id="resultado"></p>
+        <p id="mensagem-erro"></p>
+        <p id="resultado"></p>
+    </div>
 </body>
 <script src="script.js"></script>
 
